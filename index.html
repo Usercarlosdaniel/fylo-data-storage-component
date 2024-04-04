@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./public/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/src/output.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="flex gap-6 items-end md:flex-col">
+      <section
+        class="bg-blue-dark pr-28 pl-6 py-8 space-y-8 rounded-nav md:w-full"
+      >
+        <img src="./public/images/logo.svg" alt="fylo logo" />
+        <nav class="flex gap-2">
+          <button class="bg-blue-very-dark p-3 size-12 rounded-lg">
+            <img src="./public/images/icon-document.svg" alt="document icon" />
+          </button>
+          <button class="bg-blue-very-dark p-3 size-12 rounded-lg">
+            <img src="./public/images/icon-folder.svg" alt="folder icon" />
+          </button>
+          <button class="bg-blue-very-dark p-3 size-12 rounded-lg">
+            <img src="./public/images/icon-upload.svg" alt="upload icon" />
+          </button>
+        </nav>
+      </section>
+      <div class="flex flex-col md:flex-col-reverse">
+        <div
+          class="details items-center bg-white rounded-lg text-blue-pale flex gap-2 justify-end p-4 relative max-w-[9.688rem] font-bold self-end right-10 top-5 md:top-[-20px] md:right-0 md:self-center"
+        >
+          <span class="text-blue-very-dark text-3xl">185</span>
+          <p class="uppercase text-sm">gb left</p>
+        </div>
+        <section
+          class="bg-blue-dark py-7 px-10 rounded-lg w-[27rem] h-36 flex flex-col gap-3 md:w-full"
+        >
+          <div>
+            <p>You’ve used <strong>815 GB</strong> of your storage</p>
+          </div>
+          <div class="w-full h-5 bg-blue-very-dark rounded-3xl p-1">
+            <div'
+              class="bg-linear w-[81.5%] h-full rounded-3xl flex justify-end"
+            >
+              <div class="h-3 w-3 rounded-full bg-white"></div>
+            </div>
+          </div>
+          <div class="flex justify-between font-bold">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
