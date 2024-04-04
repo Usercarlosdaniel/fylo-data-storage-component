@@ -517,9 +517,6 @@ video {
   width: 3rem;
   height: 3rem;
 }
-.h-28 {
-  height: 7rem;
-}
 .h-3 {
   height: 0.75rem;
 }
@@ -535,8 +532,8 @@ video {
 .w-3 {
   width: 0.75rem;
 }
-.w-\[27rem\] {
-  width: 27rem;
+.w-\[29rem\] {
+  width: 29rem;
 }
 .w-\[81\.5\%\] {
   width: 81.5%;
@@ -544,8 +541,8 @@ video {
 .w-full {
   width: 100%;
 }
-.max-w-\[155px\] {
-  max-width: 155px;
+.max-w-\[9\.688rem\] {
+  max-width: 9.688rem;
 }
 .flex-col {
   flex-direction: column;
@@ -578,9 +575,6 @@ video {
 }
 .self-end {
   align-self: flex-end;
-}
-.self-center {
-  align-self: center;
 }
 .rounded-3xl {
   border-radius: 1.5rem;
@@ -650,13 +644,18 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
-.text-blue-pale {
+.text-blue-grayish {
   --tw-text-opacity: 1;
-  color: hsl(243 100% 93% / var(--tw-text-opacity));
+  color: hsl(229 7% 55% / var(--tw-text-opacity));
 }
 .text-blue-very-dark {
   --tw-text-opacity: 1;
   color: hsl(229 57% 11% / var(--tw-text-opacity));
+}
+.shadow-container {
+  --tw-shadow: 0px 3px 16px rgba(0,0,0,0.12);
+  --tw-shadow-colored: 0px 3px 16px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 *,
@@ -694,7 +693,7 @@ body {
   top: 60px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
   body {
     background: var(--very-dark-blue) url(../../public/images/bg-mobile.png)
       no-repeat bottom;
@@ -707,22 +706,10 @@ body {
   }
 }
 
-@media (max-width: 750px) {
-
-  .md\:top-0 {
-    top: 0px;
-  }
+@media (max-width: 780px) {
 
   .md\:right-0 {
     right: 0px;
-  }
-
-  .md\:top-\[50px\] {
-    top: 50px;
-  }
-
-  .md\:top-\[-50px\] {
-    top: -50px;
   }
 
   .md\:top-\[-20px\] {
@@ -741,22 +728,8 @@ body {
     flex-direction: column-reverse;
   }
 
-  .md\:self-end {
-    align-self: flex-end;
-  }
-
   .md\:self-center {
     align-self: center;
-  }
-
-  .md\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 }
 

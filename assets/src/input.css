@@ -37,7 +37,7 @@ body {
   top: 60px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
   body {
     background: var(--very-dark-blue) url(../../public/images/bg-mobile.png)
       no-repeat bottom;

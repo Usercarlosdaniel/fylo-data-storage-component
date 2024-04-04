@@ -23,8 +23,11 @@ module.exports = {
       },
       screens: {
         md: {
-          max: "750px",
+          max: "780px",
         }
+      },
+      boxShadow: {
+        container: "0px 3px 16px rgba(0,0,0,0.12)",
       }
     },
     
